@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Display</title>
+</head>
+<body>
+    <h2>Selected Image</h2>
+
+    <img id="displayImage" width="300px" height="300px">
+    <script>
+
+        // Get url parameter
+        const params = new URLSearchParams(window.location.search);
+        const imgUrl = params.get("img");
+
+        // Display Image
+        document.getElementById("displayImage").src = imgUrl;
+    </script>
+</body>
+</html>

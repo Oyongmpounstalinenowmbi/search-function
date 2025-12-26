@@ -1,0 +1,18 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px;
+}
+input{
+    padding: 8px;
+    width: 200px;
+    outline: none;
+    border: 2px solid aqua;
+}
+button{
+    padding: 8px 12px;
+    margin-left: 5px;
+    cursor: pointer;
+}
+#result{
+    margin-top: 20px;
+}
